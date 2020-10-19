@@ -1,8 +1,10 @@
 ## Connection à AWS
 # Inscription
-1)	Entrer « aws uqam » sur google ou allez à [https://servicesinformatiques.uqam.ca/services/AWS%20Educate]
-2)	Choissisez Student
-3)	Complètez les 3 pages d’inscription avec votre addresse uqam( XX@courriel.uqam.ca)
+1.  Allez sur le site [https://www.awseducate.com/registration#APP_TYPE]
+1.	Si cela ne fonctionne pas, Entrez « aws uqam » sur google ou allez à [https://servicesinformatiques.uqam.ca/services/AWS%20Educate]
+
+1.	Choissisez Student
+1.	Complètez les 3 pages d’inscription avec votre addresse uqam( XX@courriel.uqam.ca)
 
 <img src="./images/aws_1.png" alt="aws_1" />
 ---

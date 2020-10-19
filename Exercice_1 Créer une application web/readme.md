@@ -36,3 +36,4 @@ Puisque Elastic Beanstalk hérite de EC2, il est un serveur EC2.
 <img src="https://github.com/hydraslahir/aws/blob/main/Exercice_1%20Cr%C3%A9er%20une%20application%20web/images/further1.png">
 <img src="https://github.com/hydraslahir/aws/blob/main/Exercice_1%20Cr%C3%A9er%20une%20application%20web/images/further3.png">
 <img src="https://github.com/hydraslahir/aws/blob/main/Exercice_1%20Cr%C3%A9er%20une%20application%20web/images/further5.png">
+Il est possible ici d'arrêter l'instance, d'en démarer une, de la résilier(supprimer).

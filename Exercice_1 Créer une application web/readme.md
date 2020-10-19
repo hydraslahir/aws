@@ -19,4 +19,20 @@ Même si Canada semble être un bon choix, la Virgine du Nord m'a donné de meil
 
     <img src="https://github.com/hydraslahir/aws/blob/main/Exercice_1%20Cr%C3%A9er%20une%20application%20web/images/creer1.png">
     <img src="https://github.com/hydraslahir/aws/blob/main/Exercice_1%20Cr%C3%A9er%20une%20application%20web/images/creer3.png">
-    
+
+## Instance
+Maintenant qu'on a notre instance de serveur démarée :
+    <img src="https://github.com/hydraslahir/aws/blob/main/Exercice_1%20Cr%C3%A9er%20une%20application%20web/images/creer5.png">
+1. Représente la liste des environnements. En effet, il est possible de créer plusieurs instances différentes de serveur web en même temps et elles sont toutes représentées ici.
+2. Le nom de l'environnement actuel. On peut le configurer de plein de façons.
+3. Représente l'état du système à ce moment.
+4. Le bouton "Charger et déployer" permet de changer le code source de l'environnement. Ça peut être utile si la santé n'est pas OK.
+5. C'est le lien qui peut être utilisé pour accéder au site. Il est publique et accessible par TOUT le monde qui a le lien.
+
+Félicitation, vous avez configurer votre premier site.
+
+## Gestion
+Puisque Elastic Beanstalk hérite de EC2, il est un serveur EC2.
+<img src="https://github.com/hydraslahir/aws/blob/main/Exercice_1%20Cr%C3%A9er%20une%20application%20web/images/further1.png">
+<img src="https://github.com/hydraslahir/aws/blob/main/Exercice_1%20Cr%C3%A9er%20une%20application%20web/images/further3.png">
+<img src="https://github.com/hydraslahir/aws/blob/main/Exercice_1%20Cr%C3%A9er%20une%20application%20web/images/further5.png">

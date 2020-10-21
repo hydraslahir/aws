@@ -1,7 +1,6 @@
 ## Configuration
 
 Ce répertoire contient l'information nécessaire pour démarer un simple projet aws.
-Faire les étapes suivantes dans l'ordre devrait permettre la création d'un compte AWS sans problème
 
 1) inscription
 2) connection

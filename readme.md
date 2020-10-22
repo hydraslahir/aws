@@ -1,10 +1,9 @@
 ## Configuration
 
-Ce répertoire contient l'information nécessaire pour démarer un simple projet aws.
+Ces répertoires contiennent l'information nécessaire se connecter à AWS.
 
 1) inscription
 2) connection
-3) configuration
 
 ## Autres répertoires
 

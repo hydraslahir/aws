@@ -20,5 +20,3 @@ Suite à ce projet, vous aurez réussi à configurer un site internet sur AWS qu
 Vous adorez linux et vous en voulez toujours plus, ça tombe bien!
 
 Vous allez cconfigurer un serveur linux avec lequel vous pourrez vous connecter en SSH. On verra comment installer quelques composants supplémentaires, notamment Docker, que vous utiliserez plus tard dans le cours.
-
-Vous exécuterez quelques lignes de commandes intéressantes qui vous permetteront de mieux comprendre ce qu'est un serveur et comment le configurer.

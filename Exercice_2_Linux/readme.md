@@ -48,22 +48,23 @@ Cela est suffisant pour notre utilisation basique. Néanmoins, si vous voulez ê
 
 D'aileurs, d'un point de vue de sécurité, de permettre à toutes les IP (avec 0.0.0.0/0) d'accéder au serveur n'est pas sécuritaire, considérez ce détail lorsque vous voudrez faire un vrai projet.
 
-### 6 Lancer ET paire de clés
+### 6 Générer une paire de clés
+La clé privée vous permettra de vous connecter en SSH sur votre serveur.
 Si vous voulez plus d'information sur ce qu'est une clé publique/privée, vous pouvez faire le cours INF4471(Assez difficile).
-Pour résumer, 
 
-Les clés publiques et privées viennent en paires.
-
-Une clé publique permet de coder un message ( [chaton]_pub --> A431%?BC84), mais ne peut pas les décoder.
-
-Une clé privée permet de décoder un message ( [A431%?BC84]_priv --> chaton)
+Pour résumer:
+* Les clés publiques et privées viennent en paires.
+* Une clé publique permet de coder un message ( [chaton]_pub --> A431%?BC84), mais ne peut pas les décoder.
+* Une clé privée permet de décoder un message ( [A431%?BC84]_priv --> chaton)
 
 Ainsi, tout le monde peut coder des messages pour un destinataire, mais seul le destinataire, possédant la clé privée, peut les décoder.
 
 En créant une paire de clés, vous allez obtenir un fichier "nom_de_la_paire_de_clé.pem", c'est une clé privée qui va vous permettre de dire au serveur que vous êtes le créateur de la paire de clé et que vous êtes authentique. **Si vous perdez ce fichier ou que vous vous le faites voler, vous perdez votre serveur**.
 
-### 7 Tester que votre connection SSH fonctionne
-1. Si vous avez fait les @bandits, ça fonctionne déjà, passez à l'étape suivante
+Entreposez cette clé dans un répertoire sécuritaire dans votre ordinateur.
+
+### 7 Tester votre connection SSH
+1. Si vous avez fait les @bandits, elle fonctionne déjà, passez à l'étape suivante
 2. Sinon : Testez d'abord si vous êtes en mesure de vous connecter au serveur Java de l'uqam
 
 Remplacez aa123456 et AAA12345 par vos identifiants équivalents de l'Uqam

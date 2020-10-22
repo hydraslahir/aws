@@ -29,7 +29,7 @@ Il faut choisir la famille
 |:------------------|:------------|
 |Usage général      | ...         |
 |Calcul optimisé    |Optimisé pour le #instructions/seconde|
-|Mémoire optimisée  |Grande quantité de mémoire vive)|
+|Mémoire optimisée  |Grande quantité de mémoire vive|
 |Calcul accéléré    |Machine learning|
 |Stokage optimisé   |Mémoire et vitesse d'accès mémoire|
 

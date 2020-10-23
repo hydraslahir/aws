@@ -88,6 +88,7 @@ L'addresse IP du serveur change à chaque fois qu'il est ré-activé. Il y a un 
 5. Choisir la bonne instance
 
 Voilà, vous avez une instance de EC2 qui roule linux et dont le DNS est constant!
+Prennez note que des addresses IP Elastic non utilisées vous coûtent de l'argent(environ 1$/jour)
 
 ### 8 Obtenir l'addresse DNS du serveur
 pour vous connecter au serveur que vous venez de créer, vous devez savoir son nom de dommaine.

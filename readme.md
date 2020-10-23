@@ -8,7 +8,8 @@ Ces répertoires contiennent l'information nécessaire se connecter à AWS.
 ## Autres répertoires
 
 ### Theorie
-Contient des informations importantes que vous devriez lire pour votre culture personnelle.
+Contient des informations importantes que vous devriez lire.
+Le document explique notamment comment gérer, dans une certaine mesure, les dépenses dans AWS.
 
 ### Exercice_1_Créer une application web
 Il permet de créer un projet web simple.

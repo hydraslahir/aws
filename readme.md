@@ -7,10 +7,10 @@ Ces répertoires contiennent l'information nécessaire se connecter à AWS.
 
 ## Autres répertoires
 
-### theorie
+### Theorie
 Contient des informations importantes que vous devriez lire pour votre culture personnelle.
 
-### Exercice_1 : web
+### Exercice_1_Créer une application web
 Il permet de créer un projet web simple.
 
 Suite à ce projet, vous aurez réussi à configurer un site internet sur AWS qui contiendra les informations de votre site web avec une URL publique qui vous permettra de partager VOTRE site au monde entier. 

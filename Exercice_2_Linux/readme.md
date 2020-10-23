@@ -100,6 +100,17 @@ En appuyant sur "Se connecter" --> "SSH", vous allez avoir le liste des étapes 
 
 <img src = "./images/connection.png">
 
+### 10(optionnel)(TODO) Configurer Docker
+1. Dans la console du serveur que vous avez créé:
+
+|Commande                               |  Explication              |
+|:--------------------------------------|:--------------------------|
+|$ sudo yum install docker              | Installe Docker avec yum  |
+|$ sudo groupadd docker                 | Créé un nouveau groupe nommé "docker"|
+|$ sudo usermod -aG docker ${USER}      | (-a) append, -G(to group) : append le groupe docker à USER|
+
+Vous pouvez maintenant exécuter des contenants Docker sur votre serveur.
+
 
 
 

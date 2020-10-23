@@ -7,8 +7,8 @@ Ces répertoires contiennent l'information nécessaire se connecter à AWS.
 
 ## Autres répertoires
 
-### Important
-Contient des informations importantes que vous devriez lire pour votre culture personnelle, notamment la gestion des instances et le prix des serveurs.
+### theorie
+Contient des informations importantes que vous devriez lire pour votre culture personnelle.
 
 ### Exercice_1 : web
 Il permet de créer un projet web simple.

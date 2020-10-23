@@ -4,7 +4,7 @@ Ici, nous allons créer un serveur EC2 qui contient linux
 ### 1. EC2
 1. Connectez-vous sur votre compte AWS et allez dans les services EC2
 1. Cliquez sur "Instances" et "lancer des instances"
-<img src = "https://github.com/hydraslahir/aws/blob/main/Exercice_2_Linux/images/instances.png">
+<img src = "./images/instances.png">
 
 ### 2. Selectionner AMI
 AMI (Amazon machine image) possède l'information nécessaire pour lancer une instance. La plupart du temps ce sera un système d'exploitation.
@@ -18,7 +18,7 @@ Il y a aussi des serveurs préconfigurés (comme Elastic Beanstalk pour le web).
 Il y a des serveurs gratuits dans le Marketplace qui pourraient être intéressants aussi.
 
 Dans mon cas, j'ai choisi la 2e qui contient déjà des configurations pour Java, Docker, PHP et d'autres éléments utiles.
-<img src = "https://github.com/hydraslahir/aws/blob/main/Exercice_2_Linux/images/ami.png">
+<img src = "./images/ami.png">
 
 ### 3. Sélectionner type d'instance
 Il faut choisir la famille
@@ -42,15 +42,15 @@ Dans notre cas, t2(usage général) et micro nous suffiront.
 
 ### 5 Groupe de sécurité
 Par défaut, vous aurez : 
-<img src = "https://github.com/hydraslahir/aws/blob/main/Exercice_2_Linux/images/ssh_defaut.png">
+<img src = "./images/ssh_defaut.png">
 Cela est suffisant pour notre utilisation basique. Néanmoins, si vous voulez être en mesure de créer un site sur votre serveur linux(ce que nous ne ferons pas ici), vous devriez ajouter HTTP et HTTPS dans les types.
-<img src = "https://github.com/hydraslahir/aws/blob/main/Exercice_2_Linux/images/ssh_defaut_2.png">
+<img src = "./images/ssh_defaut_2.png">
 
 D'aileurs, d'un point de vue de sécurité, de permettre à toutes les IP (avec 0.0.0.0/0) d'accéder au serveur n'est pas sécuritaire, considérez ce détail lorsque vous voudrez faire un vrai projet.
 
 ### 6 Générer une paire de clés
 La clé privée vous permettra de vous connecter en SSH sur votre serveur.
-Si vous voulez plus d'information sur ce qu'est une clé publique/privée, vous pouvez faire le cours INF4471(Assez difficile).
+Si vous voulez plus d'information sur ce qu'est une clé publique/privée, vous pouvez faire le cours INF4471.
 
 Pour résumer:
 * Les clés publiques et privées viennent en paires.
@@ -78,9 +78,9 @@ ici, l'utilisateur est aa123456, l'addresse est java.labunix.uqam.ca et le mot d
 L'addresse IP du serveur change à chaque fois qu'il est ré-activé. Il y a un moyen plutôt simple pour fixer une addresse à un serveur.
 1. Allez dans Addresse IP Elastic
 2. Allouer l'addresse IP Elastic
-<img src = "https://github.com/hydraslahir/aws/blob/main/Exercice_2_Linux/images/id.png">
+<img src = "./images/id.png">
 3. S'assurer que c'est la bonne zone
-<img src = "https://github.com/hydraslahir/aws/blob/main/Exercice_2_Linux/images/zone.png">
+<img src = "./images/zone.png">
 
 4. Une fois allouée, il faut l'associer.
     Action --> Associer l'addresse IP Elastic
@@ -93,12 +93,12 @@ Prennez note que des addresses IP Elastic non utilisées vous coûtent de l'arge
 ### 8 Obtenir l'addresse DNS du serveur
 pour vous connecter au serveur que vous venez de créer, vous devez savoir son nom de dommaine.
 Dans la page EC2, cliquez sur l'ID d'instance.
-<img src = "https://github.com/hydraslahir/aws/blob/main/Exercice_2_Linux/images/dns.png">
+<img src = "./images/dns.png">
 
 ### 9 Se connecter
 En appuyant sur "Se connecter" --> "SSH", vous allez avoir le liste des étapes restantes pour vous connecter.
 
-<img src = "https://github.com/hydraslahir/aws/blob/main/Exercice_2_Linux/images/connection.png">
+<img src = "./images/connection.png">
 
 
 

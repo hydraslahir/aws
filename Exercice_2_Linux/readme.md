@@ -105,9 +105,9 @@ En appuyant sur "Se connecter" --> "SSH", vous allez avoir le liste des étapes 
 
 |Commande                               |  Explication              |
 |:--------------------------------------|:--------------------------|
-|$ sudo yum install docker              | Installe Docker avec yum  |
-|$ sudo groupadd docker                 | Créé un nouveau groupe nommé "docker"|
-|$ sudo usermod -aG docker ${USER}      | (-a) append, -G(to group) : append le groupe docker à USER|
+|:: sudo yum install docker              | Installe Docker avec yum  |
+|:: sudo groupadd docker                 | Créé un nouveau groupe nommé "docker"|
+|:: sudo usermod -aG docker ${USER}      | (-a) append, -G(to group) : append le groupe docker à USER|
 
 Vous pouvez maintenant exécuter des contenants Docker sur votre serveur.
 

@@ -12,4 +12,4 @@ En deux jours d'activité, j'ai dépensé 3$ US en serveur involontairement.
     Moi, j'ai supprimé tous les groupes "auto-scaling" sans considérer les répercussions, mais il y a **probablement** un moyen de gérer ça proprement.
 * Vous pouvez avoir des informations sur vos dépenses, volontaires ou non dans le service **aws cost explorer**.
 Vous pouvez choisir quand et comment afficher vos données.
-<img src="https://github.com/hydraslahir/aws/blob/main/Theorie/images/i1.png">
+<img src="https://github.com/hydraslahir/aws/blob/main/Théorie/images/i1.png">

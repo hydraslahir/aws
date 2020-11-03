@@ -68,7 +68,7 @@ On peut penser que la racine est le répertoire principal, mais ce n'est pas le 
 la racine est /home/ec2-user
 Le fichier qui m'intéresse est /home/ec2-user/fichier1
 
-
+### scp
 $ scp connection:/origine destination
 
 Ainsi, pour le fichier1

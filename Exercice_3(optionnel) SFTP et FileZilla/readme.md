@@ -25,11 +25,15 @@ Si vous désirez créer une archive "document.tar" dans le répertoire "/home/Bu
 * avec tar cvfz en une étape
 <img src ="./images/do_cvfz.png">
 
-* ATTENTION À L'EXTENTION, si c'est en une étape, vous devez avoir l'extension "tar.gz"
+* ATTENTION À L'EXTENTION, si c'est en une étape, vous devez avoir l'extension "tar.gz". Sinon, les conventions d'extensions ne seront pas respectées.
 <img src = "./images/dont_cvfz.png">
 
 * avec tar cvf et gzip en deux étapes
 <img src="./images/cvf.png">
+
+## Décompresser
+$ gunzip fichier.tar.gz
+$ tar xvf fichier.tar
 
 ## SFTP :: Transférer Local --> Serveur
 L'objectif est de déplacer les fichiers de notre ordinateur vers le serveur distant.

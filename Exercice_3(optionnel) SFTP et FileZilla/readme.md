@@ -33,6 +33,7 @@ Si vous désirez créer une archive "document.tar" dans le répertoire "/home/Bu
 
 ## Décompresser
 $ gunzip fichier.tar.gz
+
 $ tar xvf fichier.tar
 
 ## SFTP :: Transférer Local --> Serveur
